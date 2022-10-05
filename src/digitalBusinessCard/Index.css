@@ -1,0 +1,101 @@
+.business-card-container{
+    max-width: 300px;
+    border:1px solid gray;
+    border-radius: 10px;
+    background-color: #1A1B21;
+}
+
+.business-card-container img{
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 10px 10px 0px 0px;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+}
+
+.header > h5{
+    /* display: inline-block; */
+    margin-top: -15px;
+    color: #F3BF99;
+}
+
+.header > a{
+    font-size: 10px;
+    margin-top: -20px;
+    color: #F5F5F5;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.social button{
+    /* border: 1px transparent white; */
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 9px 25px;
+    outline: none;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.social button:nth-child(2){
+    background-color: #5093E2;
+    border: 0px;
+    color: white;
+}
+.social button img {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* About section */
+.about{
+    text-align: justify;
+    /* width: 200px; */
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+
+.about p{
+    font-size: x-small;
+    margin-top: -13px;
+}
+.interests{
+    text-align: justify;
+    /* width: 200px; */
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+
+.interests p{
+    font-size: x-small;
+    margin-top: -13px;
+}
+
+
+
+.socialmedia{
+
+    display: flex;
+    background-color: #161619;
+    justify-content: space-evenly;
+
+    padding: 20px 0px;
+}
+
+.socialmedia img{
+    width: 20px;
+    height: 20px
+}
